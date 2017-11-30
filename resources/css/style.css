@@ -3,7 +3,7 @@ html{
 }
 body{
   font-family: Helvetica;
-  background-color: azure;
+  background-color: white;
   line-height: 1.4;
 }
 .container{
@@ -58,4 +58,73 @@ h1{
   left: 2rem;
   float: right;
   padding: 1.5rem 5rem;
+}
+#images{
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image-text{
+  height: 8rem;
+  padding-right: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.image-text #paper{
+  width: 3.5rem;
+}
+.image-text img{
+  width: 5rem;
+}
+.image-text p{
+  text-transform: capitalize;
+}
+#exams{
+  padding-top: 0.5rem;
+}
+#custom{
+  padding-top: 2.2rem;
+}
+#fast{
+  padding-top: 1.7rem;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  text-indent: 1.25rem;
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+#philosophy{
+  width: 35%;
+  padding-right: 5%;
+}
+#appointments{
+  width: 35%;
+}
+footer{
+  background-color: azure;
+  height: 9.5rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+footer img{
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
 }
